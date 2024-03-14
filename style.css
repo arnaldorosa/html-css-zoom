@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/********** COMMON **********/
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+}
+
+
+/********** HEADER **********/
+.view-call-f, .view-call-s {
+    position: relative;
+}
+
+.view-call-f {
+    position: absolute;
+    top: 0;
+    right: 35px;
+}
+
+.view-call-s {
+    position: absolute;
+    right: 5px;
+    top: 0;
+  
+}
+.view, .arrow {
+    background-color: #4A4A4A;
+    padding: 5px;
+    color: white;
+    top: 0;
+    right: 0px;
+    border-radius: 5px;
+}
