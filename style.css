@@ -1,15 +1,14 @@
+/********** COMMON **********/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/********** COMMON **********/
 body {
-    background-color: #000000;
+    background-color: black;
     font-family: sans-serif;
 }
-
 
 /********** HEADER **********/
 .view-call-f, .view-call-s {
@@ -24,15 +23,54 @@ body {
 
 .view-call-s {
     position: absolute;
-    right: 5px;
     top: 0;
-  
+    right: 5px;
 }
+
 .view, .arrow {
-    background-color: #4A4A4A;
+    background-color: #4a4a4a;
     padding: 5px;
     color: white;
     top: 0;
-    right: 0px;
+    right: 0;
     border-radius: 5px;
 }
+
+
+/********** MAIN **********/
+.wrapper {
+    background: black;
+    height: 85vh;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.call-image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 25px;
+}
+
+.square {
+    width: calc(100% / 7 - 30px);
+    position: relative;
+}
+
+.square img {
+    height: 100%;
+    width: 100%;
+}
+
+.name {
+    background-color: rgb(127, 127, 127,);
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+}
+
+
+/********** FOOTER **********/
